@@ -6,6 +6,9 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+header{
+    background: var(--Neutral-Silver, #F5F7FA);
+}
 .logo{
     display: inline-flex;
 align-items: center;
@@ -18,7 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding:  20px 40px;
 }
 .nav-lists ul{
     display: flex;
@@ -47,4 +50,40 @@ nav{
     border: none;
     padding: 10px 20px;
     border-radius: 6px;
+}
+
+/* banner style  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+.banner-title{
+    font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: 76px;
+margin-bottom: 16px;
+}
+.banner-title-2{
+    color: var(--Brand-Primary, #4CAF4F);
+}
+.banner-button{
+    display: flex;
+padding: 14px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: #4CAF4F;
+    color: white;
+    border: none;
+    margin-top: 32px;
+}
+.banner-img{
+    width: 397px;
+    height: 407px;
 }
