@@ -87,3 +87,33 @@ background-color: #4CAF4F;
     width: 397px;
     height: 407px;
 }
+
+
+/* client style  */
+
+.client{
+    max-width: 1152px;
+    margin: 0 auto;
+}
+.client-title{
+    color: var(--Neutral-D_Grey, #4D4D4D);
+text-align: center;
+/* Heading/Headline 2 */
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; 
+margin-top: 40px;
+margin-bottom: 5px;
+}
+.client-sub-title{
+    text-align: center;
+}
+.client-img{
+    height: 98px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
