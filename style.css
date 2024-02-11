@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-flex;
+align-items: center;
+gap: 8px;
+}
+.name{
+    font-size: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.nav-lists ul{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    list-style: none;
+    font-style: normal;
+}
+.nav-lists a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.login-list{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.login{
+    color: #4CAF4F;
+    font-size: 18px;
+}
+.button{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
